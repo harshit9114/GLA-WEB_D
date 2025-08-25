@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <fieldset>
+    <legend> Personal Info</legend>
+    <form action="sumbit.php" method="post">
+        <label for="First name"> first name</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="Last name"> Last name</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+        <label for="Email"> Email</label>
+        <input type="email" id="e">
+        <br> <br>
+        <label for="Phone">Phone</label>
+        <input type="number" id="p">
+        <br><br>
+    </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend> Job detail</legend>
+    <form action="sumbit.php" method="post">
+        position Applied
+        <br>
+        <select name="position" id="po"> 
+            <option value="">select</option>
+            <option value="backend">backend</option>
+            <option value=" frontend">frontend</option>
+        </select>
+        <br> <br>
+        Year Of Experience
+        <br>
+
+        <input type="number"
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend> availability</legend>
+        <form action="sumbit.php" method="post">
+            Available Start
+            <br>
+            <label for="date">date</label>
+            <input type="date" id="date">
+            <br>
+            Willing to Relocate
+            <br>
+            
+            <input type="radio" id="join" name="yes"> yes
+         
+            <input type="radio" id="join" name="no"> no
+        </form>
+    </fieldset>
+    <input type="submit" id="s">
+</body>
+</html>
