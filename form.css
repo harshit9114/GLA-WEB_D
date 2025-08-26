@@ -1,4 +1,3 @@
-.s :hover{
-    background-color: aqua;
-    
+#s:hover{
+    color: red ;
 }
