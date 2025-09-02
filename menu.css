@@ -19,7 +19,7 @@ margin: 50px;
     color: white;
 }
  body{
-    margin-left: 120px;
+    margin-left: 130px;
  }
 #sidebar a{
     display: block;
@@ -33,5 +33,16 @@ margin: 50px;
 }
 img{
     width: 100px;
+}
+.flex{
+    border: 1px solid black;
+    background-color:RGB(193,196,84) ;
+    margin: 5px;
+}
+footer{
+    background-color: bisque;
+border: 1px solid black;
+margin-right:0px ;
+
 }
 

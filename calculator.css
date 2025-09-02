@@ -1,0 +1,41 @@
+#d{
+    height: 320px;
+    width: 253px;
+    border: 1px solid black;
+    position: fixed;
+    right: 630px;
+    top: 170px;
+    background-color: black;
+}
+#display{
+    height: 25%;
+    width: 251px;
+    position: relative;
+    border: 1px solid;
+    background-color: white;
+}
+
+.button{
+position: relative;
+display: inline-block;
+height: 38px;
+width: 54px;
+border: 1px solid ;
+margin: 4px 2px;
+ border-radius: 15%;
+ text-align: center;
+ background-color: gray;
+}
+.ARI{
+position: relative;
+display: inline-block;
+height: 38px;
+width: 54px;
+border: 1px solid ;
+margin: 4px 2px;
+ border-radius: 15%;
+ text-align: center;
+ background-color: yellow;
+ tex
+}
+
